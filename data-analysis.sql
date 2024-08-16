@@ -1,4 +1,4 @@
---Show number of interaction by customre
+--Show number of interaction by customer
 SELECT user_id, COUNT(*) AS customer_interactions
 	FROM events
 	GROUP BY user_id;
