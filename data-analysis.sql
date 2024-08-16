@@ -1,7 +1,7 @@
 --Show number of interaction by customer
 SELECT user_id, COUNT(*) AS customer_interactions
-	FROM events
-	GROUP BY user_id;
+FROM events
+GROUP BY user_id;
 	
 --Show number of interactions by company
 SELECT company, COUNT(*) AS company_interactions
